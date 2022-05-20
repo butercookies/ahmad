@@ -1,0 +1,19 @@
+
+body {
+    background-color: antiquewhite;
+}
+input {
+    font-style: italic;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline rebeccapurple;        
+}
+p {
+    font-style: italic;
+    font-size: 120%;
+}
+img.azusa {
+    float: left;
+}

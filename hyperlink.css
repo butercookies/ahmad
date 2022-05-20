@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;    
+}
+h1 {
+    font-style: italic ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:green;
+    text-align: center; 
+    text-decoration: underline;
+    float: none;
+ }
+ header{
+    background-color: thistle;
+    padding: 15px;
+ }
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    float:left
+}
+.col{
+    columns:auto 1 rgb(0, 238, 255);
+    color: rgb(0, 195, 255);
+}

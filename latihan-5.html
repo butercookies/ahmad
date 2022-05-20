@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='latihan-5.css'>
+    <title>Document</title>
+</head>
+<body >
+    <h1>guess her name</h1>
+    <!--use img source to imput photo or video-->
+    <img class="azusa" align='center' src='https://static.wikia.nocookie.net/slime-taoshite-300-nen/images/a/a4/Azusa_Mugshot.png/revision/latest?cb=20200717081517' >
+    <!--
+        use form to make form 
+        -label for text 
+        -input for questions or checkboxes
+     -->
+    <table border="1 px" >
+    <tr>
+    <td><form action="/action_page.php">
+        <label for='Hname'>whats her name?</label><br>
+        <input type="text" id='Hname' name='Hname' value="enter her name"><br>
+        <label for="Wanime">what anime is she from?</label> <br>
+        <input type="text" id='Wanime' name='Wanime' value='what anime'> <br> <br>
+        
+        <label for="who">who is she in the anime ? </label> <br>
+        <input type="radio" id="main character" name="mc">
+        <label type='text' id="main character">main character</label><br>
+        <input type="radio" id="others" name="mc">
+        <label type='text' id='other' >others</label> <br><br>
+
+        <label for="power">rate how powerful is she from 1-5</label><br>
+        <select id='power' name="power">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+        </select><br><br>
+
+        <label for="upload">please upload her photo here:</label><br>
+        <input type="file"><br><br>
+        
+        <label for="comment">please write comment here: </label><br>
+        <textarea name="commnet" id="comment" cols="30" rows="10" value='please insert your comment here' ></textarea> <br><br>
+
+        <input type="submit" value='submit'> <input type="reset" value="reset">
+    </form><br><br>
+    </td>
+    </tr>
+    </table><br>
+    
+    <iframe width="865" height="487" src="https://www.youtube.com/embed/ZwGO431CC6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>here is her first episode</a></p>
+    
+</body>

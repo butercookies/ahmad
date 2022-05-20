@@ -1,0 +1,27 @@
+h1{
+    font-style: italic;
+    background-color: rgb(214, 214, 55);
+    text-decoration: underline lightpink;
+    width: 150px;
+    display: inline-block;
+}
+div.nav{
+    background-color: lightcoral;
+    width:80%;
+}
+.main{
+    background-color: lightsalmon;
+}
+a{
+    background-color:lightskyblue;
+    width: 150px;
+    display: inline-block;
+    color: black;
+    
+}
+
+.copyright{
+    color: mediumaquamarine;
+    text-decoration: underline;
+    font-style: italic;
+}
